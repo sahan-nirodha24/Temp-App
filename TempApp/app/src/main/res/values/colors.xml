@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_color">#FF7700</color> <!-- Soothing green -->
+    <color name="primary_dark">#00FFEA</color> <!-- Dark green for emphasis -->
+
+    <!-- Accent Color -->
+    <color name="accent_color">#BC00B1</color> <!-- Vibrant orange for action items -->
+
+    <!-- Background Colors -->
+    <color name="background_color">#FAFAFA</color> <!-- Soft off-white for a subtle background -->
+    <color name="card_background">#FFFFFF</color> <!-- Clean white for input fields -->
+
+    <!-- Text Colors -->
+    <color name="text_color">#333333</color> <!-- Dark gray for high readability -->
+    <color name="hint_color">#757575</color> <!-- Muted gray for hints -->
+
+    <!-- Button Colors -->
+    <color name="button_text_color">#FFFFFF</color> <!-- Crisp white for button text -->
+    <color name="button_background">#000A73</color> <!-- Teal for an attractive button look -->
+
+    <!-- Spinner Colors -->
+    <color name="spinner_background">#E0F7FA</color> <!-- Light teal for spinner background -->
+    <color name="spinner_text_color">#008775</color> <!-- Teal for spinner text -->
+</resources>
+

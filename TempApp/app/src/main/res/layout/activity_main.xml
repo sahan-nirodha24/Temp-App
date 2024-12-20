@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:background="@drawable/linear_background"
+        android:elevation="8dp"
+        android:orientation="vertical">
+
+        <!-- App Title -->
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/app_name"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/primary_color"
+            android:paddingBottom="16dp" />
+
+        <!-- Temperature Input Field -->
+        <EditText
+            android:id="@+id/inputTemp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/hint_temp"
+            android:background="@drawable/spinner_background"
+            android:inputType="numberDecimal"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/hint_color"
+            android:padding="12dp"
+            android:elevation="2dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            />
+
+        <!-- From Unit Spinner -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/from_unit"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/spinner_text_color"
+            android:layout_marginTop="8dp" />
+
+        <Spinner
+            android:id="@+id/unitFrom"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/spinner_background"
+            android:popupBackground="@color/spinner_background"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:textAlignment="center"/>
+
+        <!-- To Unit Spinner -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/to_unit"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/spinner_text_color"
+            android:layout_marginTop="8dp" />
+
+        <Spinner
+            android:id="@+id/unitTo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/spinner_background"
+            android:popupBackground="@color/spinner_background"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:textAlignment="center"/>
+
+        <!-- Convert Button -->
+        <Button
+            android:id="@+id/convertButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/convert_button"
+            android:textColor="@color/button_text_color"
+            android:backgroundTint="@color/button_background"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:elevation="4dp" />
+
+        <!-- Result Display -->
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/converted_temp"
+            android:visibility="invisible"
+            android:textColor="@color/accent_color"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

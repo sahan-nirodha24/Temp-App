@@ -1,0 +1,27 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Temperature Converter</string>
+
+    <!-- Input field hint -->
+    <string name="hint_temp">Enter Temperature</string>
+
+    <!-- Spinner items -->
+    <string-array name="unit_array">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <!-- Button text -->
+    <string name="convert_button">Convert</string>
+
+    <!-- Result text -->
+    <string name="converted_temp">Converted Temperature:</string>
+
+    <!-- Error message -->
+    <string name="error_message">Please enter a valid temperature</string>
+
+    <!-- Labels for spinners -->
+    <string name="from_unit">From Unit</string>
+    <string name="to_unit">To Unit</string>
+</resources>
