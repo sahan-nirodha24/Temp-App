@@ -18,24 +18,24 @@ The Temperature Converter App is a simple mobile application built with Kotlin i
 Temperature App Running Stage
 ![Screenshot 2024-12-20 222133](https://github.com/user-attachments/assets/0788a381-f49f-4418-a163-f7bae820215c)
 
-User Converted To The Celcius Value Into The Fahrenheit Value
+User Converted To The Celsius Value Into The Fahrenheit Value
 ![Screenshot 2024-12-20 222155](https://github.com/user-attachments/assets/c74f6312-618a-47c4-8634-de0c5f3add0e)
 
-User Converted To The Celcius Value Into The Kelvin Value
+User Converted To The Celsius Value Into The Kelvin Value
 ![Screenshot 2024-12-20 222211](https://github.com/user-attachments/assets/ebeedf0e-fa73-4195-91bb-2c91a56fd9a3)
 
-User Converted To The Fahrenheit Value Into The Celcius Value
+User Converted To The Fahrenheit Value Into The Celsius Value
 ![Screenshot 2024-12-20 222320](https://github.com/user-attachments/assets/281f6601-bba5-459d-afbe-8031e9f9be44)
 
 User Converted To The Fahrenheit Value Into The Kelvin Value
 ![Screenshot 2024-12-20 222334](https://github.com/user-attachments/assets/41d50e87-878f-4e75-80c9-5f5a766b4fe6)
 
-User Converted To The Kelvin Value Into The Celcius Value
+User Converted To The Kelvin Value Into The Celsius Value
 ![Screenshot 2024-12-20 222501](https://github.com/user-attachments/assets/ac8f9ff1-fc02-478c-955a-9521326d42a9)
 
 User Converted To The Kelvin Value Into The Fahrenheit Value
 ![Screenshot 2024-12-20 222512](https://github.com/user-attachments/assets/d661d972-6070-4ca1-a31a-a99f5376a085)
 
-User Dosen't Enter The Value In Text Field Then Press The Convert Button
+User Don't Enter The Value In Text Field Then Press The Convert Button
 ![Screenshot 2024-12-20 222550](https://github.com/user-attachments/assets/632f569f-2018-40a8-aacb-3cd711d83842)
 
