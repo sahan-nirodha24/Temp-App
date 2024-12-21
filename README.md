@@ -9,7 +9,7 @@ The Temperature Converter App is a simple mobile application built with Kotlin i
 3) Simple and Intuitive Interface: The app provides an easy-to-use interface for fast conversions.
 
 ### How It Works
-1) Users enter a temperature value in any of the available units (Celsius, Fahrenheit, or Kelvin).
+1) Users enter a temperature value in any of the available units (_Celsius, Fahrenheit, or Kelvin_).
 2) The app automatically converts the entered value into the other two units and displays the results below the input field.
 3) The conversion happens instantly when the user enters a value.
 
